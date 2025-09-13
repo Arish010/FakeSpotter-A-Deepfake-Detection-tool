@@ -1,0 +1,165 @@
+:root {
+    --bg: #0e1420;
+    --panel: #151c27;
+    --panel-2: #1b2331;
+    --text: #e9edf1;
+    --muted: #a6b3bf;
+    --line: rgba(255, 255, 255, .08);
+    --primary: #4e7df6;
+    --primary-2: #3a6af0;
+    --success: #2eb85c;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body.theme-dark {
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sticky footer */
+footer {
+    margin-top: auto;
+}
+
+/* Navbar */
+.bg-dark-glass {
+    background: rgba(12, 18, 30, .8) !important;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .nav-link {
+    color: var(--muted);
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #fff;
+}
+
+.navbar .brand-sub {
+    display: none !important;
+}
+
+/* Cards */
+.card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+}
+
+.card-soft {
+    border-radius: 14px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, .22);
+}
+
+/* Hero section container */
+.hero {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .03), rgba(255, 255, 255, 0));
+}
+
+/* Big center page title */
+.page-hero-title {
+    font-weight: 800;
+    font-size: clamp(26px, 3.6vw, 44px);
+    color: #fff;
+    letter-spacing: .5px;
+    text-shadow: none;
+}
+
+.link-hero {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-hero:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background: var(--primary-2);
+    border-color: var(--primary-2);
+}
+
+.btn-success {
+    background: var(--success);
+    border-color: var(--success);
+}
+
+/* Thumbnails (predict page) */
+.thumbs {
+    display: flex;
+    gap: .75rem;
+    overflow-x: auto;
+    padding-bottom: .25rem;
+}
+
+.thumb {
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+}
+
+.thumb-large {
+    height: 140px;
+}
+
+/* Utility tweaks */
+.text-white {
+    color: #fff !important;
+}
+
+.video-wrapper video {
+    background: #000;
+}
+
+.card,
+.card * {
+    color: #fff;
+}
+
+/* Code badges on dark */
+.card code {
+    background: rgba(255, 255, 255, .08);
+    padding: .1rem .35rem;
+    border-radius: .25rem;
+    color: #fff;
+}
+
+.hero::before,
+.hero::after,
+.container::before,
+.container::after,
+body::before,
+h1.opacity-25,
+h1.text-black-50,
+.hero-watermark,
+.page-watermark,
+.title-watermark {
+    display: none !important;
+    content: none !important;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+    .page-hero-title {
+        font-size: 26px;
+    }
+}

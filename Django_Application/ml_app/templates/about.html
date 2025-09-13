@@ -1,0 +1,153 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    /* Hide any stray GitHub UI */
+    .github-button,
+    .github-corner,
+    #github {
+        display: none !important;
+    }
+
+    .card-soft {
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, .06);
+    }
+
+    .section-title {
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    .meta {
+        font-size: 13px;
+        color: #cfd6dd;
+    }
+
+    /* brighter */
+
+    .hero {
+        background: linear-gradient(180deg, rgba(255, 255, 255, .03), transparent);
+        border-radius: 16px;
+    }
+
+    .check {
+        color: #2eb85c;
+    }
+
+    .warn {
+        color: #e55353;
+    }
+
+    .card,
+    .card * {
+        color: #fff !important;
+    }
+
+    .card code {
+        background: rgba(255, 255, 255, .08);
+        padding: .1rem .35rem;
+        border-radius: .25rem;
+    }
+
+    .hero::before,
+    .hero::after,
+    .container::before,
+    .container::after,
+    body::before {
+        content: none !important;
+        display: none !important;
+    }
+</style>
+
+<div class="container">
+    <div class="logo text-center mb-4">
+        <img src="{% static 'images/logo1.png' %}" alt="Logo">
+    </div>
+
+    <div class="row">
+        <div class="col-lg-7 mb-3">
+            <div class="card card-soft p-4 hero">
+                <h2 class="mb-2">About this project</h2>
+                <p class="mb-3">
+                    This app detects whether an uploaded video is <b>REAL</b> or <b>FAKE</b>
+                    using a two-stage pipeline: CNN features per frame (ResNeXt-50/ResNet-50) followed by
+                    a sequence model (LSTM). It’s designed for explainability and fast iteration.
+                </p>
+
+                <h5 class="section-title">Pipeline at a glance</h5>
+                <ul class="mb-0">
+                    <li>🎞️ Extract evenly spaced frames from your video.</li>
+                    <li>🧠 <b>Backbone</b> (ResNeXt-50 / ResNet-50) → 2048-D features per frame.</li>
+                    <li>🔁 <b>LSTM</b> consumes the feature sequence and predicts <i>real</i>/<i>fake</i>.</li>
+                    <li>🧪 Optional threshold calibration improves operating point on your data.</li>
+                </ul>
+            </div>
+
+            <div class="card card-soft p-4 mt-3">
+                <h5 class="section-title">Model & thresholds (live)</h5>
+                <ul id="thrMeta" class="mb-0">
+                    <li class="meta">Loading current settings…</li>
+                </ul>
+                <div class="mt-2">
+                    <a href="{% url 'ml_app:debug-thr' %}" class="btn btn-outline-secondary btn-sm" target="_blank"
+                        rel="noopener">
+                        Open raw debug JSON
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5 mb-3">
+            <div class="card card-soft p-4">
+                <h5 class="section-title">What can I upload?</h5>
+                <ul class="mb-2">
+                    <li>✅ Videos: <code>.mp4, .gif, .webm, .avi, .3gp, .wmv, .flv, .mkv</code></li>
+                    <li>✅ Max size: <b>100 MB</b></li>
+                    <li>✅ Sequence length: configurable (defaults set in the app)</li>
+                </ul>
+                <p class="meta mb-0">
+                    Tip: shorter clips with a clear, frontal face usually yield better results.
+                </p>
+            </div>
+
+            <div class="card card-soft p-4 mt-3">
+                <h5 class="section-title">Privacy & storage</h5>
+                <ul class="mb-2">
+                    <li>📁 Uploads are saved under your project’s <code>uploaded_videos</code>.</li>
+                    <li>🖼️ Preview frames/crops go to <code>uploaded_images</code> for the UI.</li>
+                    <li>🧩 Temporary feature files are auto-deleted after prediction.</li>
+                </ul>
+                <p class="meta mb-0">All processing happens locally on your machine.</p>
+            </div>
+
+            <div class="card card-soft p-3 mt-3 text-center">
+                <a href="{% url 'ml_app:home' %}" class="btn btn-success">Upload a Video</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block js_cripts %}
+<script>
+    (function () {
+        var el = document.getElementById('thrMeta');
+        if (!el) return;
+        fetch("{% url 'ml_app:debug-thr' %}")
+            .then(function (r) { return r.json(); })
+            .then(function (d) {
+                el.innerHTML = [
+                    '<li><b>Backbone:</b> ' + (d.backbone || 'n/a') + '</li>',
+                    '<li><b>Input size:</b> ' + (d.input_size != null ? d.input_size : 'n/a') + '</li>',
+                    '<li><b>Threshold:</b> ' + (d.threshold != null ? d.threshold : 'default (0.5)') + '</li>',
+                    '<li><b>Margin:</b> ' + (d.margin != null ? d.margin : 0) + '</li>',
+                    '<li><b>Predictor:</b> ' + (d.predictor_version || 'unknown') + '</li>'
+                ].join('');
+            })
+            .catch(function () { el.innerHTML = '<li class="warn">Couldn’t load live settings.</li>'; });
+    })();
+</script>
+{% endblock %}

@@ -1,0 +1,670 @@
+Feature model loaded (resnext50@112).
+LSTM classifier loaded.
+Label mapping in use: {0: 'real', 1: 'fake'}
+Feature model loaded (resnext50@112).
+LSTM classifier loaded.
+Label mapping in use: {0: 'real', 1: 'fake'}
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.15758869051933289, 0.18394054472446442]] probs=[0.41543805599212646, 0.5845619440078735] p_fake=0.585 p_real=0.415 thr=0.60 -> REAL (41.5%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.07578529417514801, 0.0975467786192894]] probs=[0.45677515864372253, 0.5432248711585999] p_fake=0.543 p_real=0.457 thr=0.60 -> REAL (45.7%)
+Feature model loaded (resnext50@112).
+LSTM classifier loaded.
+Label mapping in use: {0: 'real', 1: 'fake'}
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.15758869051933289, 0.18394054472446442]] probs=[0.41543805599212646, 0.5845619440078735] p_fake=0.585 p_real=0.415 thr=0.56 -> FAKE (58.5%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.07578529417514801, 0.0975467786192894]] probs=[0.45677515864372253, 0.5432248711585999] p_fake=0.543 p_real=0.457 thr=0.56 -> REAL (45.7%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.1778266280889511, 0.1940300464630127]] probs=[0.4080924391746521, 0.5919075608253479] p_fake=0.592 p_real=0.408 thr=0.56 -> FAKE (59.2%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.10467781126499176, 0.11621998995542526]] probs=[0.4449990689754486, 0.5550010204315186] p_fake=0.555 p_real=0.445 thr=0.56 -> REAL (44.5%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.01942548155784607, 0.04193536937236786]] probs=[0.48466458916664124, 0.5153353810310364] p_fake=0.515 p_real=0.485 thr=0.56 -> REAL (48.5%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.15041503310203552, 0.1763342171907425]] probs=[0.4190317988395691, 0.5809682011604309] p_fake=0.581 p_real=0.419 thr=0.56 -> FAKE (58.1%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.03518544137477875, 0.04849815368652344]] probs=[0.4790913164615631, 0.5209087133407593] p_fake=0.521 p_real=0.479 thr=0.56 -> REAL (47.9%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.03518544137477875, 0.04849815368652344]] probs=[0.4790913164615631, 0.5209087133407593] p_fake=0.521 p_real=0.479 thr=0.56 -> REAL (47.9%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.07578529417514801, 0.0975467786192894]] probs=[0.45677515864372253, 0.5432248711585999] p_fake=0.543 p_real=0.457 thr=0.56 -> REAL (45.7%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.19774045050144196, 0.2106931507587433]] probs=[0.39928779006004333, 0.600712239742279] p_fake=0.601 p_real=0.399 thr=0.56 -> FAKE (60.1%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.10467781126499176, 0.11621998995542526]] probs=[0.4449990689754486, 0.5550010204315186] p_fake=0.555 p_real=0.445 thr=0.56 -> REAL (44.5%)
+backbone=resnext50@112 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[0.02282836101949215, 0.009407835081219673]] probs=[0.503355085849762, 0.49664491415023804] p_fake=0.497 p_real=0.503 thr=0.56 -> REAL (50.3%)
+Feature model loaded (resnext50@112).
+LSTM classifier loaded.
+Label mapping in use: {0: 'real', 1: 'fake'}
+backbone=resnext50@112 classes=['real', 'fake'] swap=False raw_logits=[[-0.1459220051765442, 0.15833160281181335]] probs=[0.42451798915863037, 0.5754820108413696] p_real=0.425 p_fake_any=0.575 mode=balanced thr=0.56 margin=0.050 -> FAKE (57.5%)
+backbone=resnext50@112 classes=['real', 'fake'] swap=False raw_logits=[[-0.121068075299263, 0.14880439639091492]] probs=[0.4329383969306946, 0.5670616030693054] p_real=0.433 p_fake_any=0.567 mode=balanced thr=0.56 margin=0.050 -> FAKE (56.7%)
+backbone=resnext50@112 classes=['real', 'fake'] swap=False raw_logits=[[-0.06734518706798553, 0.09163375198841095]] probs=[0.4603387713432312, 0.5396612286567688] p_real=0.460 p_fake_any=0.540 mode=balanced thr=0.56 margin=0.050 -> FAKE (54.0%)
+backbone=resnext50@112 classes=['real', 'fake'] swap=False raw_logits=[[-0.19889357686042786, 0.222928985953331]] probs=[0.39608070254325867, 0.603919267654419] p_real=0.396 p_fake_any=0.604 mode=balanced thr=0.56 margin=0.050 -> FAKE (60.4%)
+ERROR loading LSTM weights from C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django Application\models\lstm_binary_weights.pth: Error(s) in loading state_dict for LSTMWithAttention:
+	Missing key(s) in state_dict: "attn_score.bias". 
+[warn] Missing keys when loading LSTM: ['attn_score.bias']
+LSTMWithAttention loaded from C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django Application\models\lstm_binary_weights.pth
+LSTM classifier loaded from C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django Application\models\lstm_binary_weights.pth
+Label mapping in use: {0: 'real', 1: 'fake'}
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[-0.09646379947662354, 0.18692564964294434]] probs=[0.429623007774353, 0.570376992225647] p_real=0.430 p_fake=0.570 mode=balanced thr(fake)=0.50 band=0.020 -> FAKE (57.0%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[-0.015818646177649498, 0.07239817827939987]] probs=[0.4779600501060486, 0.5220398902893066] p_real=0.478 p_fake=0.522 mode=balanced thr(fake)=0.50 band=0.020 -> FAKE (52.2%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[0.013238288462162018, 0.046189531683921814]] probs=[0.4917629361152649, 0.5082370638847351] p_real=0.492 p_fake=0.508 mode=balanced thr(fake)=0.50 band=0.020 -> UNCERTAIN (50.8%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[0.041680581867694855, 0.008013717830181122]] probs=[0.508415937423706, 0.49158409237861633] p_real=0.508 p_fake=0.492 mode=balanced thr(fake)=0.50 band=0.020 -> UNCERTAIN (50.8%)
+LSTM classifier loaded from C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django Application\models\lstm_binary_weights.pth
+Label mapping in use: {0: 'real', 1: 'fake'}
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[0.14748068153858185, -0.1358218640089035]] probs=[0.5703557133674622, 0.42964431643486023] p_real=0.570 p_fake=0.430 mode=balanced thr(fake)=0.50 band=0.000 -> REAL (57.0%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[-0.09646379947662354, 0.18692564964294434]] probs=[0.429623007774353, 0.570376992225647] p_real=0.430 p_fake=0.570 mode=balanced thr(fake)=0.50 band=0.000 -> FAKE (57.0%)
+LSTM classifier loaded from C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django Application\models\lstm_binary_weights.pth
+Label mapping in use: {0: 'real', 1: 'fake'}
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[-0.09646379947662354, 0.18692564964294434]] probs=[0.429623007774353, 0.570376992225647] p_real=0.430 p_fake=0.570 mode=balanced thr(fake)=0.45 -> FAKE (57.0%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[0.15872159600257874, -0.14978967607021332]] probs=[0.5765218138694763, 0.4234781563282013] p_real=0.577 p_fake=0.423 mode=balanced thr(fake)=0.45 -> REAL (57.7%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[0.007408302277326584, 0.06956489384174347]] probs=[0.4844658672809601, 0.5155341625213623] p_real=0.484 p_fake=0.516 mode=balanced thr(fake)=0.45 -> FAKE (51.6%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[0.011250684037804604, 0.06215275824069977]] probs=[0.48727723956108093, 0.5127227902412415] p_real=0.487 p_fake=0.513 mode=balanced thr(fake)=0.45 -> FAKE (51.3%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[-0.2141711711883545, 0.3217305839061737]] probs=[0.36914142966270447, 0.6308585405349731] p_real=0.369 p_fake=0.631 mode=balanced thr(fake)=0.45 -> FAKE (63.1%)
+backbone=resnext50@224 classes=['real','fake'] swap=False raw_logits=[[0.06873170286417007, -0.02031010575592518]] probs=[0.5222457647323608, 0.47775423526763916] p_real=0.522 p_fake=0.478 mode=balanced thr(fake)=0.45 -> FAKE (47.8%)
+LSTM classifier loaded from C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django Application\models\lstm_binary_weights.pth
+Label mapping in use: {0: 'real', 1: 'fake'}
+backbone=resnext50@224 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.15907937288284302, 0.26143375039100647]] probs=[0.3963939845561981, 0.6036060452461243] idx_real=0 idx_fake=1 p_real=0.396 p_fake=0.604 mode=balanced thr(fake)=0.45 -> FAKE (60.4%)
+backbone=resnext50@224 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[0.22460927069187164, -0.2129630446434021]] probs=[0.6076803803443909, 0.39231958985328674] idx_real=0 idx_fake=1 p_real=0.608 p_fake=0.392 mode=balanced thr(fake)=0.45 -> REAL (60.8%)
+backbone=resnext50@224 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[0.0003372710198163986, 0.057913243770599365]] probs=[0.4856099784374237, 0.5143899917602539] idx_real=0 idx_fake=1 p_real=0.486 p_fake=0.514 mode=balanced thr(fake)=0.45 -> FAKE (51.4%)
+backbone=resnext50@224 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.19824345409870148, 0.2998308837413788]] probs=[0.37799331545829773, 0.6220067143440247] idx_real=0 idx_fake=1 p_real=0.378 p_fake=0.622 mode=balanced thr(fake)=0.45 -> FAKE (62.2%)
+backbone=resnext50@224 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[0.15988272428512573, -0.14017072319984436]] probs=[0.5744555592536926, 0.425544410943985] idx_real=0 idx_fake=1 p_real=0.574 p_fake=0.426 mode=balanced thr(fake)=0.45 -> REAL (57.4%)
+backbone=resnext50@224 mapping={0: 'real', 1: 'fake'} swap=False raw_logits=[[-0.07136571407318115, 0.15284596383571625]] probs=[0.4441807270050049, 0.5558192729949951] idx_real=0 idx_fake=1 p_real=0.444 p_fake=0.556 mode=balanced thr(fake)=0.45 -> FAKE (55.6%)
+LSTM classifier loaded from C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django Application\models\lstm_binary_weights.pth
+Label mapping in use: {0: 'real', 1: 'fake'}
+multiclass mapping={0: 'real', 1: 'fake'} top1=real:0.698 rollup p_real=0.698 p_fake=0.302 -> REAL(69.8%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=fake:0.594 rollup p_real=0.406 p_fake=0.594 -> FAKE(59.4%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=real:0.614 rollup p_real=0.614 p_fake=0.386 -> REAL(61.4%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=fake:0.525 rollup p_real=0.475 p_fake=0.525 -> FAKE(52.5%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=fake:0.517 rollup p_real=0.483 p_fake=0.517 -> FAKE(51.7%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=fake:0.597 rollup p_real=0.403 p_fake=0.597 -> FAKE(59.7%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=real:0.534 rollup p_real=0.534 p_fake=0.466 -> REAL(53.4%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=fake:0.576 rollup p_real=0.424 p_fake=0.576 -> FAKE(57.6%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=fake:0.506 rollup p_real=0.494 p_fake=0.506 -> FAKE(50.6%)
+multiclass mapping={0: 'real', 1: 'fake'} top1=fake:0.555 rollup p_real=0.445 p_fake=0.555 -> FAKE(55.5%)
+[info] Backbone=resnext50  IM_SIZE=224
+[info] LSTM loaded: num_classes=2, mapping={0: '0', 1: '1'}
+multiclass mapping={0: '0', 1: '1'} top1=1:0.554 rollup p_real=0.000 p_fake=0.000 -> FAKE(0.0%)
+multiclass mapping={0: '0', 1: '1'} top1=1:0.507 rollup p_real=0.000 p_fake=0.000 -> FAKE(0.0%)
+multiclass mapping={0: '0', 1: '1'} top1=1:0.580 rollup p_real=0.000 p_fake=0.000 -> FAKE(0.0%)
+multiclass mapping={0: '0', 1: '1'} top1=1:0.504 rollup p_real=0.000 p_fake=0.000 -> FAKE(0.0%)
+[info] Backbone=resnext50  IM_SIZE=112
+[info] LSTM loaded: num_classes=2, mapping={0: '0', 1: '1'}
+multiclass mapping={0: '0', 1: '1'} top1=1:0.585 rollup p_real=0.000 p_fake=0.000 -> FAKE(0.0%)
+multiclass mapping={0: '0', 1: '1'} top1=0:0.528 rollup p_real=0.000 p_fake=0.000 -> FAKE(0.0%)
+[info] Backbone=resnext50  IM_SIZE=112
+[info] LSTM loaded (binary). mapping={0: 'real', 1: 'fake'}
+[predict] seq_len=60 thr=0.50 p_real=0.475 p_fake=0.525 -> FAKE (52.5%)
+[predict] seq_len=40 thr=0.50 p_real=0.408 p_fake=0.592 -> FAKE (59.2%)
+[predict] seq_len=20 thr=0.50 p_real=0.497 p_fake=0.503 -> FAKE (50.3%)
+[predict] seq_len=40 thr=0.50 p_real=0.470 p_fake=0.530 -> FAKE (53.0%)
+[predict] seq_len=40 thr=0.50 p_real=0.424 p_fake=0.576 -> FAKE (57.6%)
+[predict] seq_len=40 thr=0.50 p_real=0.478 p_fake=0.522 -> FAKE (52.2%)
+[info] Backbone=resnext50  IM_SIZE=112
+[info] LSTM loaded (binary). mapping={0: 'real', 1: 'fake'}
+[predict] seq_len=60 thr=0.65 p_real=0.425 p_fake=0.575 -> REAL (42.5%)
+[predict] seq_len=60 thr=0.65 p_real=0.360 p_fake=0.640 -> REAL (36.0%)
+[predict] seq_len=60 thr=0.65 p_real=0.388 p_fake=0.612 -> REAL (38.8%)
+[predict] seq_len=60 thr=0.65 p_real=0.363 p_fake=0.637 -> REAL (36.3%)
+[predict] seq_len=60 thr=0.65 p_real=0.473 p_fake=0.527 -> REAL (47.3%)
+[predict] seq_len=60 thr=0.65 p_real=0.470 p_fake=0.530 -> REAL (47.0%)
+[info] Backbone=resnext50  IM_SIZE=112
+[info] LSTM loaded (binary). mapping={0: 'real', 1: 'fake'}
+[predict] seq_len=60 swap=False thr=0.60 indices(real,fake)=(0,1) raw_probs=[0.4251328706741333, 0.5748671293258667] p_real=0.425 p_fake=0.575 -> REAL (42.5%)
+[predict] seq_len=60 swap=False thr=0.60 indices(real,fake)=(0,1) raw_probs=[0.35565385222435, 0.6443461179733276] p_real=0.356 p_fake=0.644 -> FAKE (64.4%)
+[predict] seq_len=60 swap=False thr=0.60 indices(real,fake)=(0,1) raw_probs=[0.3601427674293518, 0.6398572325706482] p_real=0.360 p_fake=0.640 -> FAKE (64.0%)
+[predict] seq_len=60 swap=False thr=0.60 indices(real,fake)=(0,1) raw_probs=[0.4879264235496521, 0.5120735168457031] p_real=0.488 p_fake=0.512 -> REAL (48.8%)
+[info] Backbone=resnext50  IM_SIZE=112
+[warn] Could not read C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\best_threshold.json: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\Project Msc\\Deepfake_detection_using_deep_learning\\Django_Application\\best_threshold.json'. Using defaults thr=0.5, margin=0.05
+[error] No feature files found for prediction.
+[error] No feature files found for prediction.
+[error] No feature files found for prediction.
+[debug] frames=422 sampleW=510 sampleH=500
+[error] No feature files found for prediction.
+[debug] frames=469 sampleW=944 sampleH=500
+[error] No feature files found for prediction.
+[debug] frames=464 sampleW=944 sampleH=500
+[error] No feature files found for prediction.
+[debug] frames=479 sampleW=944 sampleH=500
+[debug] frames=326 sampleW=944 sampleH=500
+[debug] frames=519 sampleW=574 sampleH=500
+[debug] frames=445 sampleW=588 sampleH=500
+[debug] frames=350 sampleW=944 sampleH=500
+[debug] frames=520 sampleW=944 sampleH=500
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (20, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755256771.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755256807.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755282360.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[debug] idx=432 HOG empty -> trying CNN (downscale)
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755284114.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[error] Feature extraction/save failed: name 'np' is not defined
+[debug] frames=328 sampleW=518 sampleH=498
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755285159_S60_im112_resnext50.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755285578_S60_im112_resnext50.npy
+[debug] frames=328 sampleW=518 sampleH=498
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755285848_S60_im112_resnext50.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755286140_S60_im112_resnext50.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755287175_S60_im112_resnext50.npy
+[debug] frames=361 sampleW=668 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755287189_S60_im112_resnext50.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755287200_S60_im112_resnext50.npy
+[debug] frames=469 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755287211_S60_im112_resnext50.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755287692_S60_im112_resnext50.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755287711_S60_im112_resnext50.npy
+[debug] frames=425 sampleW=524 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755287722_S60_im112_resnext50.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288128_S60_im224_resnet50.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288249_S60_im224_resnet50.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288265_S60_im224_resnet50.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288281_S60_im224_resnet50.npy
+[debug] frames=361 sampleW=668 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288299_S60_im224_resnet50.npy
+[debug] frames=409 sampleW=568 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288312_S60_im224_resnet50.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288878_S60_im224_resnet50.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755288934_S60_im224_resnet50.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289289_S60_im224_resnet50.npy
+[debug] frames=307 sampleW=616 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289310_S60_im224_resnet50.npy
+[debug] frames=409 sampleW=568 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289323_S60_im224_resnet50.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289335_S60_im224_resnet50.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289351_S60_im224_resnet50.npy
+[debug] frames=534 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289366_S60_im224_resnet50.npy
+[debug] frames=365 sampleW=584 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289424_S60_im224_resnet50.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755289451_S60_im224_resnet50.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755296127__1755296129176_b48801b1.npy
+[debug] frames=446 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755296145__1755296147058_2c9aa076.npy
+[debug] frames=401 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755296160__1755296162245_56b65e11.npy
+[debug] frames=510 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755296172__1755296174563_342b3b0b.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755298529__1755298531581_5f45d16e.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755298543__1755298544648_f75c476b.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755298561__1755298563075_89034969.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755298576__1755298578170_9894ff19.npy
+[debug] frames=448 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755298594__1755298596965_64a58b33.npy
+[debug] frames=458 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755298615__1755298618051_fa3b1e9a.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755299260__1755299261550_98d62fd0.npy
+[debug] frames=322 sampleW=632 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755299270__1755299271007_cd13878d.npy
+[debug] frames=459 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755299278__1755299279739_8d04d4e0.npy
+[debug] frames=303 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755299289__1755299290891_3bc82281.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755299299__1755299301081_f38b5331.npy
+[debug] frames=529 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755300268__1755300269607_6b977296.npy
+[debug] frames=383 sampleW=554 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755300280__1755300281751_775ef6a2.npy
+[debug] frames=459 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755300289__1755300290793_6b04c903.npy
+[debug] frames=514 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755300300__1755300301392_39663986.npy
+[debug] frames=328 sampleW=518 sampleH=498
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755342455__1755342457597_6473d11c.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755342468__1755342469548_83d65580.npy
+[debug] frames=365 sampleW=584 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755342481__1755342482682_600d4904.npy
+[debug] frames=365 sampleW=584 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755342481__1755342490837_5c2101a1.npy
+[debug] frames=303 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755343243__1755343245013_05b85021.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755343258__1755343260264_e95bbb58.npy
+[debug] frames=458 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755343269__1755343271096_438a4c52.npy
+[debug] frames=458 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755343269__1755343280629_5d3cf9aa.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755363746__1755363747967_600c583a.npy
+[debug] frames=326 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755363757__1755363759738_b9a4ee19.npy
+[debug] frames=303 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755363767__1755363768854_408ebf2f.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755363994__1755363995967_4fa2fddf.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364005__1755364007094_d9939dd1.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364017__1755364019574_7d8626ad.npy
+[debug] frames=425 sampleW=524 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364029__1755364031223_d89fb14f.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364038__1755364040350_21100b6b.npy
+[debug] frames=459 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364058__1755364060490_60a71f2f.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364076__1755364077929_d7e2cbec.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364093__1755364094884_55812e00.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364104__1755364106745_ea031de0.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364121__1755364123225_8d2ca97f.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364137__1755364139236_d0f2d144.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364160__1755364162131_d5d2a6c5.npy
+[debug] frames=477 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364171__1755364173504_98e5cbd7.npy
+[debug] frames=630 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364186__1755364188330_4101a6b0.npy
+[debug] frames=499 sampleW=514 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364199__1755364201033_bba01dc9.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364223__1755364225504_5c73c0a8.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364272__1755364274184_90aab60d.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364316__1755364317998_6bf4667f.npy
+[debug] frames=529 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364920__1755364921923_770d352c.npy
+[debug] frames=303 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364932__1755364933582_653d7b90.npy
+[debug] frames=307 sampleW=616 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364945__1755364946936_1c42915b.npy
+[debug] frames=361 sampleW=668 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364955__1755364957027_427e0bd9.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364968__1755364969758_56b081fe.npy
+[debug] frames=520 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755364979__1755364980901_29fda386.npy
+[debug] frames=505 sampleW=572 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755366401__1755366402752_33396018.npy
+[debug] frames=477 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755366413__1755366414994_7821a034.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755366430__1755366432282_fbf8cb24.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755366443__1755366444885_f2a76113.npy
+[debug] frames=520 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755367099__1755367101227_000184e9.npy
+[debug] frames=412 sampleW=480 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755367128__1755367129966_8abbd8bc.npy
+[debug] frames=611 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755367143__1755367145200_22979510.npy
+[debug] frames=499 sampleW=514 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755367155__1755367156996_001e86d3.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755368235__1755368252059_cd189f25.npy
+[debug] frames=534 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755368266__1755368292779_837971a3.npy
+[debug] frames=380 sampleW=528 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755368405__1755368420386_3cedd8f2.npy
+[debug] frames=630 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755368431__1755368455888_1410b0b5.npy
+[debug] frames=534 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755368972__1755368974509_7f41e368.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755368989__1755368991624_deb7537e.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369011__1755369013141_87b444d3.npy
+[debug] frames=304 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369023__1755369025062_bed8ed12.npy
+[debug] frames=365 sampleW=584 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369040__1755369041690_7c4b0b87.npy
+[debug] frames=529 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369647__1755369649904_1ca337fa.npy
+[debug] frames=459 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369664__1755369666679_597d27de.npy
+[debug] frames=326 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369714__1755369716855_6d969848.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369732__1755369734532_51189201.npy
+[debug] frames=304 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369749__1755369752445_cbc23071.npy
+[debug] frames=280 sampleW=942 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755369764__1755369766416_965234cb.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755371000__1755371003791_972d7c97.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755371019__1755371022248_39d368ad.npy
+[debug] frames=326 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755371033__1755371035991_8c78ec54.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755371516__1755371519224_0c539f40.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755371516__1755372042959_ef2c9926.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755372067__1755372070478_9326e7c1.npy
+[debug] frames=428 sampleW=530 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755372084__1755372087261_ff8828c7.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=224
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755375083__1755375085706_25bcbdb4.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755375099__1755375100841_69c97480.npy
+[debug] frames=520 sampleW=944 sampleH=500
+[features] wrote (60, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755375113__1755375115338_93676511.npy
+[debug] frames=505 sampleW=572 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755387766__1755387767578_57875849.npy
+[debug] frames=445 sampleW=588 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755387786__1755387787690_5b242b59.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755387806__1755387808285_443617a7.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755387815__1755387817499_7cd97a6b.npy
+[debug] frames=303 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755388447__1755388447980_f806748f.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755388463__1755388464456_10fcacbf.npy
+[debug] frames=307 sampleW=616 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755388474__1755388474816_659a6030.npy
+[debug] frames=470 sampleW=638 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755388482__1755388483108_74bfd455.npy
+[debug] frames=459 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755389377__1755389378771_3ec18b49.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755389411__1755389412652_d476c376.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755389964__1755389965974_85e7051d.npy
+[debug] frames=303 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755390070__1755390071192_62a0847d.npy
+[debug] frames=372 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755390089__1755390090883_81735931.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755390834__1755390834959_4cb6c649.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755390850__1755390851240_6d97aa94.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755390863__1755390863817_0b97ba9e.npy
+[debug] frames=326 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755392178__1755392180423_ac4ee90f.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755392199__1755392200190_b65fcd79.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755392208__1755392209078_6bcbbe98.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755392763__1755392764999_04c410ab.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755392780__1755392781966_c991dd80.npy
+[debug] frames=380 sampleW=640 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755392798__1755392799579_343a3d3a.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755393058__1755393059104_09afd06a.npy
+[debug] frames=371 sampleW=582 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755393081__1755393082697_6b6d77a2.npy
+[debug] frames=505 sampleW=572 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755393721__1755393722919_592988a8.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755393739__1755393740990_eea64b0f.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755394047__1755394051486_18a9122c.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755394063__1755394065330_4f1e691a.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755395480__1755395481537_7d14bf27.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755395493__1755395495249_2de16763.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755395837__1755395839329_8765c51a.npy
+[features] wrote (face) (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755395837__1755395840721_29b95cb4_face.npy
+[infer] combine=avg(full,face)  p_real_full=0.097  p_real_face=0.471  -> p_real=0.284 thr=0.400 margin=0.000 -> FAKE
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396739__1755396741289_744e4c96.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396752__1755396753381_1f3bbe7b.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396764__1755396766022_ef76a372.npy
+[debug] frames=409 sampleW=568 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396795__1755396796969_e6d7df23.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396816__1755396817718_20932657.npy
+[debug] frames=529 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396826__1755396827898_fb02b30b.npy
+[debug] frames=469 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396974__1755396976023_c6cf3a12.npy
+[debug] frames=400 sampleW=494 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396987__1755396988078_c8e46cfd.npy
+[debug] frames=291 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755396997__1755396998593_a1278948.npy
+[debug] frames=284 sampleW=950 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755397007__1755397009400_7388787c.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428044__1755428044883_3d966238.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428056__1755428057673_e0d603a0.npy
+[debug] frames=383 sampleW=554 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428071__1755428072341_7706ce98.npy
+[debug] frames=459 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428082__1755428082999_18795884.npy
+[debug] frames=409 sampleW=568 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428091__1755428092529_161097f2.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428101__1755428102438_2a282440.npy
+[debug] frames=412 sampleW=480 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428114__1755428115018_0f6206db.npy
+[debug] frames=307 sampleW=616 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428124__1755428125131_26f55fb7.npy
+[debug] frames=295 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428135__1755428136408_5a3144a6.npy
+[debug] frames=497 sampleW=884 sampleH=498
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428177__1755428179029_b054ea39.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428189__1755428190732_d72b0d3a.npy
+[debug] frames=326 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428204__1755428205408_c3886952.npy
+[debug] frames=303 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428233__1755428234499_4fdeff09.npy
+[debug] frames=456 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428249__1755428250550_0c7dc388.npy
+[debug] frames=314 sampleW=952 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755428994__1755428995559_b45d07e1.npy
+[debug] frames=272 sampleW=532 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755429008__1755429008978_f9073555.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755431386__1755431387899_fbf42d89.npy
+[debug] frames=477 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755431395__1755431396979_bb113c17.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755440652__1755440652965_b99b42f9.npy
+[debug] frames=326 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755440667__1755440668434_648c6a2e.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755440676__1755440677210_df75ae97.npy
+[debug] frames=409 sampleW=432 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755440687__1755440687941_95712972.npy
+[debug] frames=352 sampleW=666 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755440705__1755440706279_f7e6bfc7.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755440745__1755440746663_e2fb00da.npy
+[debug] frames=505 sampleW=572 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755440927__1755440927874_6e46ef0a.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755447870__1755447870719_1546f6d2.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755447879__1755447879754_684dd9a2.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755469389__1755469391034_35d46117.npy
+[debug] frames=326 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755542886__1755542887830_ef2f6781.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755542895__1755542896449_716fcf68.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755542904__1755542905179_dd9a3e71.npy
+[debug] frames=505 sampleW=572 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755604832__1755604832980_3c9b872a.npy
+[debug] frames=307 sampleW=616 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755604839__1755604840450_0b40fd2e.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755604847__1755604848860_6bc335e6.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755604854__1755604855980_99f1eee4.npy
+[debug] frames=458 sampleW=488 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755604864__1755604865568_6b2bed84.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605337__1755605337842_b79fe2ff.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605413__1755605414600_27cd7dc7.npy
+[debug] frames=328 sampleW=518 sampleH=498
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605421__1755605422475_dc9a325a.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605429__1755605430633_ec42746f.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605436__1755605437860_8eee31ff.npy
+[debug] frames=497 sampleW=884 sampleH=498
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605446__1755605447720_7599cdbe.npy
+[debug] frames=477 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605453__1755605454836_b8f5f95a.npy
+[debug] frames=401 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605462__1755605464115_01f50ba2.npy
+[debug] frames=458 sampleW=488 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605801__1755605801789_3f6fbb0f.npy
+[debug] frames=361 sampleW=588 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605807__1755605808600_e16e664c.npy
+[debug] frames=215 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605814__1755605815134_f0be858b.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605822__1755605823646_639d0866.npy
+[debug] frames=291 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605832__1755605833183_f4d98812.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605886__1755605887742_033918d1.npy
+[debug] frames=365 sampleW=584 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605908__1755605908848_c3a54dda.npy
+[debug] frames=458 sampleW=474 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605919__1755605919830_5675d271.npy
+[debug] frames=459 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605926__1755605927552_61e2b815.npy
+[debug] frames=470 sampleW=638 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605960__1755605961929_a751029e.npy
+[debug] frames=361 sampleW=668 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605971__1755605972652_f5cdf12f.npy
+[debug] frames=529 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755605982__1755605983214_efc34a1f.npy
+[debug] frames=520 sampleW=944 sampleH=500
+[info] Backbone=resnext50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606486__1755606487954_746a5640.npy
+[debug] frames=307 sampleW=616 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606498__1755606498944_d63651e0.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606506__1755606507759_9239a27e.npy
+[debug] frames=479 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606514__1755606515957_a8e82ab0.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606539__1755606540459_4cedd8a4.npy
+[debug] frames=497 sampleW=884 sampleH=498
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606549__1755606550611_9406763d.npy
+[debug] frames=291 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606558__1755606559669_bebd40b3.npy
+[debug] frames=365 sampleW=584 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755606568__1755606569532_65a860a9.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755607091__1755607092322_0bf2d9a5.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755607100__1755607100811_6188eac6.npy
+[debug] frames=295 sampleW=942 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755607108__1755607109187_d1b7171d.npy
+[debug] frames=365 sampleW=584 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755607118__1755607118753_06f897b3.npy
+[debug] frames=350 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755687399__1755687401056_dd0cb2ea.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755687419__1755687419916_9aa1a960.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755687426__1755687427405_63bb30af.npy
+[debug] frames=372 sampleW=650 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755687435__1755687436578_1ee4ee6f.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755687453__1755687454567_30a2d29c.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755688799__1755688801003_82871123.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755688820__1755688821098_066e9bca.npy
+[debug] frames=422 sampleW=510 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755691192__1755691193238_9613f61e.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755691201__1755691202768_7f5dd428.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\Project Msc\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1755691229__1755691230103_541f7aa7.npy
+[debug] frames=371 sampleW=582 sampleH=500
+[info] Backbone=resnet50  IM_SIZE=112
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\MSc Project\Arish Supporting Material\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1757511469__1757511470702_08651416.npy
+[debug] frames=519 sampleW=574 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\MSc Project\Arish Supporting Material\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1757511480__1757511481190_b244b722.npy
+[debug] frames=464 sampleW=944 sampleH=500
+[features] wrote (24, 2048) -> C:\Users\Asus\Desktop\MSc Project\Arish Supporting Material\Deepfake_detection_using_deep_learning\Django_Application\extracted_features\uploaded_file_1757511489__1757511490766_f1929f98.npy

@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container text-center mt-4">
+    <h1 class="page-hero-title m-0">
+        <a href="{% url 'ml_app:home' %}" class="link-hero">FakeSpotter: A Deepfake Detection System</a>
+    </h1>
+</div>
+
+<section class="hero py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="card card-soft p-4 p-md-5">
+                    <h2 class="h4 mb-3 text-white">Upload a video</h2>
+                    <p class="mb-4 text-white">
+                        We’ll extract faces, run sequence features, and classify as <b>REAL</b> or <b>FAKE</b>.
+                    </p>
+
+                    <div class="video-wrapper mb-3">
+                        <video id="videos" controls class="w-100 rounded-3" style="display:none">
+                            <source id="video_source" src="">
+                        </video>
+                    </div>
+
+                    <form class="form" method="POST" enctype="multipart/form-data" id="video-upload">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label class="form-label text-white">Select Video</label>
+                            {{ form.upload_video_file }}
+                            {% if form.upload_video_file.errors %}
+                            {% for e in form.upload_video_file.errors %}
+                            <div class="alert alert-danger mt-2">{{ e }}</div>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+
+                        <button id="videoUpload" type="submit" class="btn btn-primary w-100 mt-2">Upload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block js_cripts %}
+<script>
+    document.addEventListener('change', function (e) {
+        if (e.target && e.target.id === 'id_upload_video_file' && e.target.files && e.target.files[0]) {
+            const videoEl = document.getElementById('videos');
+            const sourceEl = document.getElementById('video_source');
+            sourceEl.src = URL.createObjectURL(e.target.files[0]);
+            videoEl.style.display = 'block';
+            videoEl.load();
+        }
+    });
+
+    document.getElementById('video-upload')?.addEventListener('submit', function () {
+        const btn = document.getElementById('videoUpload');
+        btn.disabled = true;
+        btn.innerHTML = 'Uploading… <span class="spinner-border spinner-border-sm"></span>';
+    });
+</script>
+{% endblock %}

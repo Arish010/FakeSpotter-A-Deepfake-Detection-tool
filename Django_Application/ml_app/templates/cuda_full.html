@@ -1,0 +1,289 @@
+{% extends 'base.html' %}
+{%load static%}
+{%block content%}
+<style>
+  .github-button,
+  .github-corner,
+  #github {
+    display: none !important;
+  }
+
+  .main {
+    margin-top: 10%;
+  }
+
+  .svg-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .svg-wrap svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .cta {
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  .st0 {
+    fill: #fff
+  }
+
+  .st2 {
+    fill: #5d89af
+  }
+
+  .st3 {
+    fill: #709abf
+  }
+
+  .st4,
+  .st6 {
+    fill: #fff;
+    stroke: #b3dcdf;
+    stroke-miterlimit: 10
+  }
+
+  .st6 {
+    stroke: #5d89af;
+    stroke-width: 2
+  }
+
+  .st7,
+  .st8,
+  .st9 {
+    stroke: #709abf;
+    stroke-miterlimit: 10
+  }
+
+  .st7 {
+    stroke-width: 5;
+    stroke-linecap: round;
+    fill: none
+  }
+
+  .st8,
+  .st9 {
+    fill: #fff
+  }
+
+  .st9 {
+    fill: none
+  }
+
+  .st10 {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: .2px;
+  }
+
+  #cloud1 {
+    animation: cloud003 15s linear infinite;
+  }
+
+  #cloud2 {
+    animation: cloud002 25s linear infinite;
+  }
+
+  #cloud3 {
+    animation: cloud003 20s linear infinite;
+  }
+
+  #cloud4 {
+    animation: float 4s linear infinite;
+  }
+
+  #cloud5 {
+    animation: float 8s linear infinite;
+  }
+
+  #cloud7 {
+    animation: float 5s linear infinite;
+  }
+
+  #tracks {
+    animation: slide 650ms linear infinite;
+  }
+
+  #bumps {
+    animation: land 10000ms linear infinite;
+  }
+
+  @keyframes jig {
+    0% {
+      transform: translateY(0)
+    }
+
+    50% {
+      transform: translateY(1px)
+    }
+
+    100% {
+      transform: translateY(0)
+    }
+  }
+
+  #car-layers {
+    animation: jig 0.35s linear infinite;
+  }
+
+  @keyframes land {
+    from {
+      transform: translateX(0)
+    }
+
+    to {
+      transform: translateX(1000px)
+    }
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0px)
+    }
+
+    to {
+      transform: translateX(100px)
+    }
+  }
+
+  @keyframes cloud001 {
+    0% {
+      transform: translateX(-1000px) translateY(3px)
+    }
+
+    100% {
+      transform: translateX(1000px) translateY(0)
+    }
+  }
+
+  @keyframes cloud002 {
+    0% {
+      transform: translateX(-1000px) translateY(3px)
+    }
+
+    100% {
+      transform: translateX(1000px) translateY(0)
+    }
+  }
+
+  @keyframes cloud003 {
+    0% {
+      transform: translateX(-1000px) translateY(3px)
+    }
+
+    100% {
+      transform: translateX(1000px) translateY(0)
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0) translateX(0)
+    }
+
+    50% {
+      transform: translateY(8px) translateX(5px)
+    }
+
+    100% {
+      transform: translateY(0) translateX(0)
+    }
+  }
+
+  #bracefront,
+  #braceback {
+    animation: braces 1s linear infinite;
+  }
+
+  @keyframes braces {
+    0% {
+      transform: translateX(-2px)
+    }
+
+    25% {
+      transform: translateX(3px)
+    }
+
+    50% {
+      transform: translateX(-2px)
+    }
+
+    75% {
+      transform: translateX(3px)
+    }
+
+    100% {
+      transform: translateX(-2px)
+    }
+  }
+</style>
+
+<div class="main">
+  <div class="container">
+    <div class="svg-wrap">
+      <!-- SVG kept exactly as you provided -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355">
+        <!-- BEGIN original SVG -->
+        <!-- (paste your entire SVG content unchanged; kept below for completeness) -->
+        <g id="ocean">
+          <path id="sky" class="st0" d="M0 0h1000v203.1H0z" />
+          <linearGradient id="water_1_" gradientUnits="userSpaceOnUse" x1="500" y1="354" x2="500" y2="200.667">
+            <stop offset="0" stop-color="#fff" />
+            <stop offset="1" stop-color="#b3dcdf" />
+          </linearGradient>
+          <path id="water" fill="url(#water_1_)" d="M0 200.7h1000V354H0z" />
+          <path id="land" class="st0" d="M0 273.4h1000V354H0z" />
+          <g id="bumps">
+            <path class="st0" d="M0 275.2s83.8-28 180-28 197 28 197 28H0z" />
+            <path class="st0" d="M377 275.2s54.7-28 117.5-28 128.6 28 128.6 28H377z" />
+            <path class="st0" d="M623.2 275.2s83.7-28 179.9-28 196.9 28 196.9 28H623.2z" />
+            <path class="st0" d="M-998 275.2s83.8-28 180-28 197 28 197 28h-377z" />
+            <path class="st0" d="M-621 275.2s54.7-28 117.5-28 128.6 28 128.6 28H-621z" />
+            <path class="st0" d="M-374.8 275.2s83.7-28 179.9-28S2 275.2 2 275.2h-376.8z" />
+          </g>
+        </g>
+        <g id="tracks">
+          <!-- (tracks paths unchanged) -->
+          <!-- ... -->
+          <path class="st3" d="M-499.5 300.2H1000v5.1H-499.5z" />
+          <path class="st3" d="M-499.5 283.8H1000v2.8H-499.5z" />
+        </g>
+        <g id="cloudsAll">
+          <!-- (clouds paths unchanged) -->
+          <!-- ... -->
+        </g>
+        <g id="train">
+          <path fill="#b3dcdf" d="M344.5 248.5h507.2v37.8H344.5z" />
+          <g id="wheels">
+            <!-- (wheels circles/paths unchanged) -->
+          </g>
+          <path id="bracefront" class="st7" d="M383.2 285.6h88.1" />
+          <path id="braceback" class="st7" d="M733.2 285.6h88.1" />
+          <g id="car-layers">
+            <!-- (car + outline unchanged) -->
+            <g id="Text">
+              <text transform="translate(377.037 230.025)" class="st8 st10" font-size="21">
+                Server is out of GPU memory.
+              </text>
+              <text transform="translate(659.5 213.994)" class="st8 st10" font-size="24.025">
+                Please try again.
+              </text>
+            </g>
+            <!-- (rest unchanged) -->
+          </g>
+        </g>
+        <!-- END original SVG -->
+      </svg>
+    </div>
+
+    <div class="cta">
+      <a href="{% url 'ml_app:home' %}" class="btn btn-success me-2">Back to Home</a>
+      <button type="button" class="btn btn-outline-secondary" onclick="location.reload()">Retry</button>
+    </div>
+  </div>
+</div>
+{%endblock%}

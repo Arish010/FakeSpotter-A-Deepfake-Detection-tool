@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="py-4">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <div class="card card-soft p-3 p-md-4">
+          <h2 class="h3 mb-3 text-white">Result</h2>
+
+          <div class="video-wrapper mb-3 position-relative">
+            <video id="predict-media" width="100%" controls class="rounded-3">
+              <source src="{{ MEDIA_URL }}{{ original_video }}" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="d-flex align-items-center flex-wrap gap-2">
+            {% if display_label|lower == "real" %}
+            <span class="badge bg-success rounded-pill px-3 py-2">REAL</span>
+            {% else %}
+            <span class="badge bg-danger rounded-pill px-3 py-2">FAKE</span>
+            {% endif %}
+            {% widthratio confidence 1 100 as conf_pct %}
+            <span class="text-muted">Confidence: {{ conf_pct }}%</span>
+          </div>
+
+          {% if class_probs %}
+          <div class="mt-3">
+            <h3 class="h6 mb-3 text-white">Top classes</h3>
+            <ul class="mb-2">
+              {% for item in class_probs %}
+              {% widthratio item.prob 1 100 as p %}
+              <li>{{ item.label|upper }} — {{ p }}%</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          <div class="mt-3 small text-muted">
+            {% widthratio prob_fake 1 100 as pf %}{% widthratio prob_real 1 100 as pr %}
+            Debug — P(fake): <b>{{ pf }}%</b> • P(real): <b>{{ pr }}%</b> • threshold: <b>{{ threshold }}</b><br>
+            classes: <code>fake, real</code><br>
+            <span class="text-muted">{{ debug_stamp }}</span>
+          </div>
+
+          <div class="mt-4 d-flex gap-2">
+            <a href="{% url 'ml_app:home' %}" class="btn btn-outline-light">Upload another video</a>
+            <a href="{% url 'ml_app:home' %}" class="btn btn-primary">Home</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card card-soft p-3 mb-4">
+          <h3 class="h3 mb-3 text-white">Frames Split</h3>
+          <div id="preprocessed_images" class="thumbs">
+            {% for each_image in preprocessed_images %}
+            <img src="{% static each_image %}" class="thumb thumb-large" alt="frame">
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="card card-soft p-3">
+          <h3 class="h3 mb-3 text-white">Face Cropped Frames</h3>
+          <div id="faces_images" class="thumbs">
+            {% for each_image in faces_cropped_images %}
+            <img src="{% static each_image %}" class="thumb" alt="face">
+            {% empty %}
+            <div class="text-muted small">No face crops available.</div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block js_cripts %}
+<script src="{% static 'js/face-api.min.js' %}"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById("predict-media");
+    Promise.all([
+      faceapi.nets.ssdMobilenetv1.loadFromUri('/static/json'),
+      faceapi.nets.tinyFaceDetector.loadFromUri('/static/json')
+    ]).catch(() => { });
+
+    let timer = null;
+    video.addEventListener("playing", async () => {
+      const canvas = document.querySelector('canvas') || faceapi.createCanvasFromMedia(video);
+      if (!canvas.isConnected) {
+        canvas.style.position = "absolute";
+        canvas.style.top = video.offsetTop + "px";
+        canvas.style.left = video.offsetLeft + "px";
+        video.parentElement.appendChild(canvas);
+      }
+      const size = { width: video.clientWidth, height: video.clientHeight };
+      faceapi.matchDimensions(canvas, size);
+
+      const isReal = "{{ display_label|lower }}" === "real";
+      const labelText = (isReal ? "REAL" : "FAKE") + "  {% widthratio confidence 1 100 %}%";
+      const boxColor = isReal ? "#10b981" : "#ef4444";
+
+      timer = setInterval(async () => {
+        const dets = await faceapi.detectAllFaces(video).catch(() => []);
+        const resized = faceapi.resizeResults(dets, size);
+        const ctx = canvas.getContext("2d");
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        resized.forEach(det => {
+          const draw = new faceapi.draw.DrawBox(det.box, {
+            label: labelText,
+            boxColor: boxColor
+          });
+          draw.draw(canvas);
+        });
+      }, 250);
+    });
+    ["pause", "ended"].forEach(ev => video.addEventListener(ev, () => timer && clearInterval(timer)));
+  });
+</script>
+{% endblock %}
